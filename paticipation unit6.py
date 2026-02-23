@@ -18,10 +18,10 @@ pet4 = {
     "owner": "Tina"
 }
 
-# Storing all dictionaries in a list
+# Store all dictionaries in a list
 pets = [pet1, pet2, pet3, pet4]
 
-# Printing everything
+# Printing all
 for pet in pets:
     print("Type of Animal:", pet["type"])
     print("Owner:", pet["owner"])
